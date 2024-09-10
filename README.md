@@ -18,16 +18,18 @@
 
 
 
-```sequence
+```mermaid
+sequenceDiagram
 SpringBoot->MySQL: request
 Note right of MySQL: Cache Miss
-MySQL->SpringBoot: response
 MySQL->Redis: Cache Write
+MySQL->SpringBoot: response
 ```
 
 ### Cache Hit
 
-```sequence
+```mermaid
+sequenceDiagram
 SpringBoot->Redis: request
 Note right of Redis: Cache Hit
 Redis->SpringBoot: response
