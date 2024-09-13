@@ -186,6 +186,7 @@ Java 17, Gradle, Redis, JPA, Mybatis
 - https://lob-dev.tistory.com/77 - Redis Cache Strategy
 - https://velog.io/@hongjunland/%EC%BA%90%EC%8B%9C-%EC%84%A4%EA%B3%84-%EC%A0%84%EB%9E%B5 - 캐시 설계 전략
 - https://mangkyu.tistory.com/311 - Redis 분산락의 필요성과 한계
+- https://redis.io/docs/latest/develop/use/patterns/bulk-loading/ - Redis Bulk-Loading
 
 
 
